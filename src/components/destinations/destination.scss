@@ -1,0 +1,26 @@
+@import '/src/styles/globals/global';
+@import '/src/styles/globals/mixins';
+@import '/src/styles/globals/utilities';
+
+.destination {
+    display: flex;
+    padding: 20px 50px;
+    border-bottom: 1px solid lightgrey;
+
+    &__wrap {
+        &__location {
+            span {
+                padding-right: 5px;
+            }
+            img {
+                margin-right: 6px;
+            }
+        }
+    }
+
+    &__image {
+        border-radius: 5px;
+        height: 168px;
+        margin-right: 20px;
+    }
+}

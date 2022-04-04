@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;600&family=Work+Sans:wght@300&display=swap');
+@import './variables';
+
+#root {
+    font-family: $poppins;
+
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 110%;
+    }
+
+    h1 {
+        font-weight: 600;
+    }
+}

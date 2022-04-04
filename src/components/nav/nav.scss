@@ -1,0 +1,17 @@
+@import '/src/styles/globals/global';
+@import '/src/styles/globals/mixins';
+@import '/src/styles/globals/utilities';
+
+.navigation {
+    background-color: #f55a5a;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+
+    img {
+        margin-right: 10px;
+    }
+}
