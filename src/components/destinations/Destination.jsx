@@ -1,9 +1,7 @@
 import React from 'react';
-import data from 'D:/Coding/travel-journal/src/data';
 import locationIcon from 'D:/Coding/travel-journal/src/images/location-icon.png';
-import Nav from 'D:/Coding/travel-journal/src/components/nav/Nav';
 
-function Destinations(props) {
+export default function Destinations(props) {
     return (
         <section className='destination'>
             <img
@@ -31,17 +29,5 @@ function Destinations(props) {
                 </div>
             </div>
         </section>
-    );
-}
-
-export default function App() {
-    const destination = data.map((dest) => {
-        return <Destinations key={dest.key} {...dest} />;
-    });
-    return (
-        <div className='wrapper'>
-            <Nav />
-            {destination}
-        </div>
     );
 }
